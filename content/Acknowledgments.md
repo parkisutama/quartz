@@ -1,3 +1,12 @@
+---
+title: Acknowledgements
+description: Acknowledgements to community and contributor
+permalink: 
+aliases: 
+tags: 
+draft: false
+date: 2024-09-18
+---
 # Acknowledgments
 
 This Site can exist because

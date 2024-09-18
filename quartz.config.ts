@@ -12,10 +12,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'google', tagId: 'G-NVE74CLJER',
     },
     locale: "id-ID",
-    baseUrl: "notes.kravisi.work",
+    baseUrl: "parkisnotes.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
