@@ -3,7 +3,7 @@ name: Deploy Quartz site to GitHub Pages
 on:
   push:
     branches:
-      - cf-pages
+      - 4.3.0-testing
  
 permissions:
   contents: read
