@@ -19,7 +19,7 @@ import pt from "./locales/pt-BR"
 import hu from "./locales/hu-HU"
 import fa from "./locales/fa-IR"
 import pl from "./locales/pl-PL"
-
+import id from "./locales/id-ID"
 export const TRANSLATIONS = {
   "en-US": enUs,
   "en-GB": enGb,
@@ -54,6 +54,7 @@ export const TRANSLATIONS = {
   "ar-DZ": ar,
   "ar-MR": ar,
   "uk-UA": uk,
+  "id-ID": id,
   "ru-RU": ru,
   "ko-KR": ko,
   "zh-CN": zh,
