@@ -360,11 +360,7 @@ async function rebuildFromEntrypoint(
   }
 
   const buildId = newBuildId()
-<<<<<<< HEAD
   ctx.buildId = buildId
-=======
-  ctx.buildId = buildId 
->>>>>>> work-with-chrome-mobile
   buildData.lastBuildMs = new Date().getTime()
   const release = await mut.acquire()
 
