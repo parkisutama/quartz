@@ -20,7 +20,6 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Search(),
     Component.Breadcrumbs(),
     //Component.ArticleTitle(), will use H1 instead
     Component.ContentMeta(),
@@ -31,6 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Explorer()),
     
