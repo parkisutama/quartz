@@ -1,7 +1,5 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
 
-.sidebar {
-    position: sticky;
-}

@@ -90,6 +90,7 @@ svg {
   flex-direction: row;
   display: flex;
   align-items: center;
+  -webkit-user-select: none;
   user-select: none;
 
   & div > a {

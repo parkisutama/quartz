@@ -24,7 +24,9 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
-        <p></p>
+        <p>
+          
+        </p>
         <ul>
           <li>
             <a href="#">
@@ -32,8 +34,13 @@ export default ((opts?: Options) => {
             </a> 
           </li>
           <li>
-          <a href="Acknowledgments">
-            Acknowledgements
+          <a href="https://github.com/parkisutama">
+            GitHub
+            </a>
+          </li>
+          <li>
+          <a href="https://id.linkedin.com/in/parkisutama">
+            LinkedIn
             </a>
           </li>
         </ul>
