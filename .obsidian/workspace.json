@@ -11,8 +11,13 @@
             "id": "ec5278299cfd1247",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/acknowledgments.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -106,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/acknowledgments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/acknowledgments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/acknowledgments.md"
+              }
             }
           },
           {
@@ -159,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "content/acknowledgments.md"
+              }
             }
           },
           {
@@ -210,11 +221,14 @@
   },
   "active": "3c61d74b8d29a98c",
   "lastOpenFiles": [
-    "quartz/i18n/locales/id-ID.ts",
-    "content/index.md",
-    "content/McKinsey Way.md",
+    "files_list.txt",
+    "root.txt",
     "content/MECE (mutually exclusive, collectively exhaustive).md",
-    "content/Acknowledgments.md",
+    "content/index.md",
+    "content/mckinsey way.md",
+    "content/mece.md",
+    "content/acknowledgments.md",
+    "quartz/i18n/locales/id-ID.ts",
     "docs/plugins/RoamFlavoredMarkdown.md",
     "docs/features/Roam Research compatibility.md",
     "docs/showcase.md",
@@ -240,7 +254,6 @@
     "notes/Spending money to show people how much money you have is the fastest way to have less money..md",
     "notes/You do not rise to the level of your goals. You fall to the level of your systems..md",
     "templates/class/quote.md",
-    "notes/Apa itu Pepatahnya Manusia berencana, Tuhan tertawa.md",
     "moods/2024/09",
     "moods/2024",
     "moods",
@@ -248,7 +261,6 @@
     "assets/Pasted image 20240905092111.png",
     "issues/Untitled.canvas",
     "journals/2024/09",
-    "journals/2024",
     "roles as IAT ITSD/project/Inventarisasi Pohon/01-boards/Alur Kerja Penyulaman Tanaman.canvas",
     "boards/Diskusi SMKP Site Lahat dan SOP.canvas",
     "boards/Welcome Board.canvas"

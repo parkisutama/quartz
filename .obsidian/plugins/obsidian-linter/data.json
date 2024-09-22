@@ -19,7 +19,7 @@
       "force-yaml-escape-keys": ""
     },
     "format-tags-in-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "format-yaml-array": {
       "enabled": false,
@@ -31,8 +31,8 @@
       "force-multi-line-array-style": ""
     },
     "insert-yaml-attributes": {
-      "enabled": false,
-      "text-to-insert": "aliases: \ntags: "
+      "enabled": true,
+      "text-to-insert": "title:\ndescription:\npermalink: \naliases:\ntags:\ndraft:\ndate:"
     },
     "move-tags-to-yaml": {
       "enabled": false,
@@ -60,10 +60,10 @@
     "yaml-timestamp": {
       "enabled": true,
       "date-created": true,
-      "date-created-key": "createAt",
+      "date-created-key": "created_at",
       "force-retention-of-create-value": true,
       "date-modified": true,
-      "date-modified-key": "editAt",
+      "date-modified-key": "updated_at",
       "format": "YYYY-MM-DDTHH:mm",
       "convert-to-utc": false
     },
@@ -111,7 +111,8 @@
     },
     "auto-correct-common-misspellings": {
       "enabled": false,
-      "ignore-words": ""
+      "ignore-words": "",
+      "extra-auto-correct-files": []
     },
     "blockquote-style": {
       "enabled": false,
@@ -280,7 +281,7 @@
   "customRegexes": [],
   "commonStyles": {
     "aliasArrayStyle": "single-line",
-    "tagArrayStyle": "single-line",
+    "tagArrayStyle": "multi-line",
     "minimumNumberOfDollarSignsToBeAMathBlock": 2,
     "escapeCharacter": "\"",
     "removeUnnecessaryEscapeCharsForMultiLineArrays": true

@@ -3,13 +3,12 @@
     "aliases": "aliases",
     "tags": "tags",
     "cssclasses": "multitext",
-    "createAt": "datetime",
-    "editAt": "datetime",
+    "create_at": "datetime",
+    "edit_at": "datetime",
     "date": "date",
     "favorite": "checkbox",
     "status": "text",
     "roles": "text",
-    "created": "datetime",
     "page": "number",
     "author": "multitext"
   }
