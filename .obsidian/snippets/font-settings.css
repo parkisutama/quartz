@@ -1,0 +1,38 @@
+/* Set fonts for both Edit and Preview mode and Color for Link
+.view-content {
+  font-family: 'Courier New', monospace !important;
+}
+*/
+
+/* target external links in ALL views */
+body {
+  --link-external-color: #6681a8;
+  --link-external-color-hover: #777d88;
+}
+
+/* revert undesired edit-mode external link parenthesis coloring */
+.cm-s-obsidian span.cm-url.cm-formatting-link-string {
+  color: var(--text-faint);
+}
+
+/* target both internal WIKI links & MD links in ALL views */
+.cm-s-obsidian span.cm-hmd-internal-link,
+.cm-s-obsidian span.cm-url:has([data-link-path$="md"]),
+.cm-s-obsidian span.cm-link:has([data-link-path$="md"]),
+.cm-s-obsidian span.cm-link:has([data-link-path$="md"]) .cm-underline:hover,
+.markdown-rendered .internal-link
+{
+  color: #50a9a0;
+}
+
+/*Set Font for Obsidian Editor*/
+.markdown-source-view .cm-editor .cm-scroller {
+  font-family: 'SF Mono', monospace !important;
+  color: #0c0d0f
+}
+
+/*Set Font for Obsidian Preview*/
+.markdown-preview-view {
+  font-family: 'SF Pro Text', sans-serif !important;
+  color: #0c0d0f
+}

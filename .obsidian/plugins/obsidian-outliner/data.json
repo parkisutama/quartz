@@ -1,0 +1,12 @@
+{
+  "styleLists": false,
+  "debug": true,
+  "stickCursor": "never",
+  "betterEnter": true,
+  "betterTab": true,
+  "selectAll": true,
+  "listLines": true,
+  "listLineAction": "zoom-in",
+  "dnd": true,
+  "previousRelease": null
+}

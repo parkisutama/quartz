@@ -1,0 +1,22 @@
+/*edit mode*/
+.CodeMirror pre.CodeMirror-line {
+    line-height: 2;/*height of a*/
+    padding-top: 6px; /*the lower part of height of b*/
+    padding-bottom: 6px;/*the upper part of height of b*/
+  }
+
+  .theme-dark {
+    --text-selection: #303132;
+}
+
+/* Add Paragraph Spacing in edit mode */
+.markdown-source-view.mod-cm6 .cm-line{
+  line-height: 2;
+  }
+
+/*line spacing*/
+  li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 2;
+  }

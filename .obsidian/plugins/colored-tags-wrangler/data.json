@@ -1,0 +1,174 @@
+{
+  "TagColors": {
+    "ColorPicker": [
+      {
+        "tag_name": "AppSheet",
+        "color": {
+          "r": 139,
+          "g": 186,
+          "b": 249
+        },
+        "background_color": {
+          "r": 79,
+          "g": 79,
+          "b": 79
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "Obsidian",
+        "color": {
+          "r": 236,
+          "g": 137,
+          "b": 218
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "GoogleKeep",
+        "color": {
+          "r": 244,
+          "g": 225,
+          "b": 98
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "Nebo",
+        "color": {
+          "r": 156,
+          "g": 213,
+          "b": 232
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "task",
+        "color": {
+          "r": 249,
+          "g": 123,
+          "b": 123
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "TickTick",
+        "color": {
+          "r": 158,
+          "g": 161,
+          "b": 245
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "project",
+        "color": {
+          "r": 80,
+          "g": 139,
+          "b": 129
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      },
+      {
+        "tag_name": "meeting",
+        "color": {
+          "r": 196,
+          "g": 153,
+          "b": 130
+        },
+        "background_color": {
+          "r": 100,
+          "g": 100,
+          "b": 100
+        },
+        "luminance_offset": 0.15
+      }
+    ],
+    "EnableMultipleTags": true,
+    "EnableSeparateBackground": true,
+    "EnableBackgroundOpacity": false,
+    "Values": {
+      "BackgroundOpacity": 0.45,
+      "LuminanceOffset": 0.15
+    }
+  },
+  "CSS": {
+    "NoteTags": true,
+    "NoteProperties": true,
+    "NoteBackgrounds": true,
+    "TagsNoWrap": true,
+    "TagsNoWrapText": "pre"
+  },
+  "FolderNote": {
+    "Enable": true,
+    "FolderTagLinks": [],
+    "EnableAutoDetect": true,
+    "EnableBackgroundOpacity": true,
+    "Values": {
+      "BackgroundOpacity": 0.45,
+      "ForceImportant": true,
+      "BorderRadius": "12px",
+      "Padding": "5px"
+    }
+  },
+  "Kanban": {
+    "Enable": false,
+    "EnableCards": false,
+    "EnableLists": false,
+    "HideHashtags": false,
+    "EnableBackgroundOpacity": false,
+    "Values": {
+      "BackgroundOpacity": 0.45,
+      "CardBackgroundOpacity": 0.2,
+      "CardBorderOpacity": 0.3,
+      "ListBackgroundOpacity": 0.2,
+      "ListBorderOpacity": 0.3
+    }
+  },
+  "Canvas": {
+    "Enable": false,
+    "EnableBackgroundOpacity": true,
+    "Values": {
+      "BackgroundOpacity": 0.45,
+      "CardBorderOpacity": 0.3,
+      "CardBackgroundLuminanceOffset": 0.15
+    }
+  },
+  "Debug": {
+    "Enable": false,
+    "EnableExperimentalCommands": false
+  },
+  "Info": {
+    "SettingsVersion": 14
+  }
+}

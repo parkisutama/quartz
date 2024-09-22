@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "tags": "tags",
+    "cssclasses": "multitext",
+    "createAt": "datetime",
+    "editAt": "datetime",
+    "date": "date",
+    "favorite": "checkbox",
+    "status": "text",
+    "roles": "text",
+    "created": "datetime",
+    "page": "number",
+    "author": "multitext"
+  }
+}

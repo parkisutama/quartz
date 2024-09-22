@@ -1,0 +1,12 @@
+{
+  "search": false,
+  "editor": false,
+  "tag-wrangler:tag-pane": false,
+  "kanban-plugin": false,
+  "file-explorer": false,
+  "properties": false,
+  "bookmarks": false,
+  "outline": false,
+  "graph": false,
+  "git-view": false
+}
