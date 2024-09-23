@@ -1,13 +1,8 @@
 @use "../../styles/variables.scss" as *;
 
 .explorer {
-  display: flex;
-  flex-direction: column;
-  overflow-y: hidden;
   &.desktop-only {
-    @media all and not ($mobile) {
-      display: flex;
-    }
+    overflow-y: auto;
   }
   &:after {
     pointer-events: none;
@@ -83,10 +78,6 @@ button#explorer {
     visibility: hidden;
   }
 
-  &.collapsed > .overflow::after {
-    opacity: 0;
-  }
-
   & ul {
     list-style: none;
     margin: 0.08rem 0;
@@ -100,6 +91,9 @@ button#explorer {
       opacity: 0.75;
       pointer-events: all;
     }
+  }
+  > #explorer-ul {
+    max-height: none;
   }
 }
 

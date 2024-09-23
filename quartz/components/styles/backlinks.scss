@@ -1,8 +1,9 @@
+@use "../../styles/variables.scss" as *;
+
 .backlinks {
-  @media all and not ($mobile) {
+  @media all and not ($desktop) {
     overflow-y: auto;
-    display: flex;
-    flex-direction: column;
+    display: initial;
     &:after {
       pointer-events: none;
       content: "";
@@ -16,15 +17,19 @@
       background: linear-gradient(transparent 0px, var(--light));
     }
 
-  & > h3 {
-    font-size: 1rem;
-    margin: 0;
-  }
+    &:has(> .overflow) {
+      position: unset;
+    }
 
-  & > ul {
-    list-style: none;
-    padding: 0;
-    margin: 0.5rem 0;
+    & > h3 {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    & > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0;
 
       & > li {
         & > a {
