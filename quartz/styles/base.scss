@@ -507,7 +507,9 @@ video {
 }
 
 div:has(> .overflow) {
-  position: relative;
+  display: flex;
+  overflow-y: auto;
+  max-height: 100%;
 }
 
 ul.overflow,
