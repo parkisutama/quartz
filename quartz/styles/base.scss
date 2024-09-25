@@ -223,13 +223,20 @@ a {
     }
   }
 
-  & .center,
-  & footer {
-    margin-left: auto;
-    margin-right: auto;
-    width: $pageWidth;
-    @media all and (max-width: $fullPageWidth) {
-      width: initial;
+    & .center,
+    & footer {
+      max-width: 100%;
+      min-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      @media all and ($desktop) {
+        margin-right: 0;
+      }
+      @media all and ($mobile) {
+        margin-left: 0;
+      }
+    }
+    & footer {
       margin-left: 0;
       margin-right: 0;
     }
@@ -388,7 +395,7 @@ pre {
     counter-increment: line 0;
     display: grid;
     padding: 0.5rem 0;
-    overflow-x: scroll;
+    overflow-x: auto;
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);
@@ -507,14 +514,12 @@ video {
 }
 
 div:has(> .overflow) {
-  display: flex;
-  overflow-y: auto;
-  max-height: 100%;
+  position: relative;
 }
 
 ul.overflow,
 ol.overflow {
-  max-height: 200;
+  max-height: 100%;
   overflow-y: auto;
 
   // clearfix
@@ -524,7 +529,6 @@ ol.overflow {
   & > li:last-of-type {
     margin-bottom: 30px;
   }
-
   &:after {
     pointer-events: none;
     content: "";
