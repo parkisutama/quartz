@@ -2,10 +2,13 @@
 title: McKinsey Way
 description: Note about McKinsey Way Book
 permalink: 
-aliases: 
-tags: 
+aliases: []
+tags:
+  - problem-solving
 draft: false
 date: 
+created_at: 2024-09-22T18:32
+updated_at: 2024-09-22T19:02
 ---
 
 # McKinsey Way
@@ -14,5 +17,5 @@ Buku ini membicarakan tentang perbaikan cara-cara praktis yang digunakan oleh Pe
 
 ## Key Takeaways
 
-- [[MECE (mutually exclusive, collectively exhaustive)]] separating your problem into distinct, non-overlapping issues while making sure that no issues relevant to your problem have been overlooked.
+- [[mece]] separating your problem into distinct, non-overlapping issues while making sure that no issues relevant to your problem have been overlooked.
 - 
