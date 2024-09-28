@@ -3,6 +3,15 @@
 .explorer {
   &.desktop-only {
     overflow-y: auto;
+    
+  /* Hide scrollbar for Firefox and WebKit browsers */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
   }
   &:after {
     pointer-events: none;

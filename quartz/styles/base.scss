@@ -555,6 +555,16 @@ ol.overflow {
   & > li:last-of-type {
     margin-bottom: 30px;
   }
+
+  /* Hide scrollbar for Firefox and WebKit browsers */
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  
+  &::-webkit-scrollbar {
+    display: none; /* WebKit browsers */
+  }
+
   &:after {
     pointer-events: none;
     content: "";
