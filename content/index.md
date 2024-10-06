@@ -2,9 +2,10 @@
 title: Welcome to Parkis Notes
 ---
 
-# Digital Garden sederhana oleh Parkis
+## Digital Garden by Parkis
 
-Di sini aku memiliki banyak catatan tentang :
+Business Focus + Good Data Practices = Analytics
+Membahas Bisnis, Data dan Analitik untuk pertumbuhan dan kreativitas yang terus berproses
 
 ## Practice & Skills
 
