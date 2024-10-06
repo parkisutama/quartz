@@ -11,8 +11,13 @@
             "id": "8a673b5396804a56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/acknowledgments.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -62,14 +67,6 @@
             }
           },
           {
-            "id": "3bfae333e20782f8",
-            "type": "leaf",
-            "state": {
-              "type": "trash-explorer",
-              "state": {}
-            }
-          },
-          {
             "id": "3c61d74b8d29a98c",
             "type": "leaf",
             "state": {
@@ -78,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -203,8 +200,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b14b7bb9f8c38ef",
+  "active": "8a673b5396804a56",
   "lastOpenFiles": [
+    "content/mckinsey-way.md",
     "content/acknowledgments.md",
     "files_list.txt",
     "root.txt",
