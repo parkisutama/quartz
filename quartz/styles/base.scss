@@ -555,21 +555,7 @@ ol.overflow {
   & > li:last-of-type {
     margin-bottom: 30px;
   }
-<<<<<<< HEAD
-
-  /* Hide scrollbar for Firefox and WebKit browsers */
-
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  
-  &::-webkit-scrollbar {
-    display: none; /* WebKit browsers */
-  }
-
-  &:after {
-=======
   /*&:after {
->>>>>>> 1416f62 (fix(layout): backlinks grid triage (#1447))
     pointer-events: none;
     content: "";
     width: 100%;
