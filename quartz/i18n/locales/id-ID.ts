@@ -26,8 +26,8 @@ export default {
       noBacklinksFound: "Tidak ada Pranala",
     },
     themeToggle: {
-      lightMode: "Light mode",
-      darkMode: "Dark mode",
+      lightMode: "Mode Terang",
+      darkMode: "Mode Gelap",
     },
     explorer: {
       title: "Explorer",
@@ -39,7 +39,7 @@ export default {
       title: "Graph View",
     },
     recentNotes: {
-      title: "Recent Notes",
+      title: "Catatan Terbaru",
       seeRemainingMore: ({ remaining }) => `See ${remaining} more →`,
     },
     transcludes: {
@@ -47,11 +47,11 @@ export default {
       linkToOriginal: "Link to original",
     },
     search: {
-      title: "Search",
-      searchBarPlaceholder: "Search for something",
+      title: "Cari",
+      searchBarPlaceholder: "Cari catatan...",
     },
     tableOfContents: {
-      title: "Table of Contents",
+      title: "Daftar Isi",
     },
     contentMeta: {
       readingTime: ({ minutes }) => `${minutes} min read`,
