@@ -14,7 +14,7 @@ updated_at: 2024-09-22T19:01
 
 ## Business Focus + Good Data Practices = Analytics
 
-Membahas Bisnis, Data dan Analitik untuk pertumbuhan dan kreativitas yang terus berproses
+Membahas Bisnis, Data dan Analitik untuk pertumbuhan dan kreativitas
 
 Di sini aku memiliki banyak catatan tentang :
 
