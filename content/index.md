@@ -1,5 +1,5 @@
 ---
-title: Welcome to Parkis Notes
+title: Business Focus + Good Data Practices = Analytics
 description: Digital Garden of Bussiness Data Analytics
 permalink: 
 aliases: []
@@ -12,7 +12,9 @@ created_at: 2024-09-22T18:32
 updated_at: 2024-09-22T19:01
 ---
 
-# Digital Garden sederhana oleh Parkis
+## Business Focus + Good Data Practices = Analytics
+
+Membahas Bisnis, Data dan Analitik untuk pertumbuhan dan kreativitas yang terus berproses
 
 Di sini aku memiliki banyak catatan tentang :
 
