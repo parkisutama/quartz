@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "dcd085a1db3f5918",
+        "id": "b3dee87aca0214e4",
         "type": "tabs",
         "children": [
           {
-            "id": "8a673b5396804a56",
+            "id": "936586c455626f5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/acknowledgments.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "content/acknowledgments.md"
-              }
+              "state": {}
             }
           },
           {
@@ -105,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/acknowledgments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/acknowledgments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/acknowledgments.md"
-              }
+              "state": {}
             }
           },
           {
@@ -200,10 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a673b5396804a56",
+  "active": "936586c455626f5f",
   "lastOpenFiles": [
-    "content/mckinsey-way.md",
     "content/acknowledgments.md",
+    "content/mckinsey-way.md",
     "files_list.txt",
     "root.txt",
     "content/MECE (mutually exclusive, collectively exhaustive).md",
